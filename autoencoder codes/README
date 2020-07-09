@@ -1,0 +1,5 @@
+Thre are three Python files-
+
+* RobustDeepAutoencoder.py : This is the main file required to run the code. The training and testing networks should be specified in this file.
+* DeepAE.py : This is the initialization ofr the Autoencoder used.
+* l1shrink.py : This code helps to shrink the given vector.

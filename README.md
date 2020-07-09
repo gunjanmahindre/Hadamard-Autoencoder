@@ -16,7 +16,7 @@ Predicting missing network measurements in ultra-sparsely sampled social network
 
 
 ## Data used:
-We simulate the Powerlaw networks using following functions in python's networkx module:
+We simulate the Powerlaw networks using following functions in python's networkx module (https://networkx.github.io/):
 G1 = nx.barabasi_albert_graph(744, 2, seed=None)
 G2 = nx.barabasi_albert_graph(744, 10, seed=None)
 G3 = nx.barabasi_albert_graph(744, 50, seed=None)
@@ -25,3 +25,4 @@ G5 = nx.powerlaw_cluster_graph(744, 50, 0.5, seed=None)
 G6 = nx.powerlaw_cluster_graph(744, 200, 0.9, seed=None)
 
 We use a 744 node Facebook network that is shared in this repository titled "Facebook.txt".
+It has been downloaded from SNAP: http://snap.stanford.edu/data/index.html

@@ -13,6 +13,8 @@ import os
 from math import sqrt
 from sklearn.metrics import mean_absolute_error
 np.random.seed(123)
+
+
 class RDAE(object):
     """
     @author: Chong Zhou
@@ -107,6 +109,10 @@ class RDAE(object):
         return self.AE.getRecon(X, sess = sess)
 
 if __name__ == "__main__":
+    '''
+    @author: Rasika Karkare, Gunjan Mahindre
+    complete: 06/05/2020
+    '''
     data1 = pd.read_csv('./g1v_bb.csv')
     data1 = np.array(data1)
     data2 = pd.read_csv('./g2v_bb.csv')
